@@ -1,0 +1,75 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+
+.timeline{
+  font-size: 75px;
+  padding: 0 50px 0 50px;
+  color: #ffffff;
+  font-family: poppins;
+}
+
+
+.div1{
+  background-color: rgba(0, 0, 0, 0.524);
+  border-radius: 35px;
+}
+.clock{
+
+  background-image: url(pic2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  background-color: rgb(0, 255, 255);
+
+}
+
+
+
+@media screen and (max-width:1440px) {
+  .timeline{
+    font-size: 65px;
+    padding: 0 45px 0 45px;
+    color: #ffffff;
+    font-family: poppins;
+  }
+}
+
+@media screen and (max-width:1024px) {
+  .timeline{
+    font-size: 50px;
+    padding: 0 45px 0 45px;
+    color: #ffffff;
+    font-family: poppins;
+  }
+}
+@media screen and (max-width:890px) {
+  .timeline{
+    font-size: 40px;
+    padding: 0 40px 0 40px;
+    color: #ffffff;
+    font-family: poppins;
+  }
+}
+@media screen and (max-width:768px) {
+  .timeline{
+    font-size: 28px;
+    padding: 0 20px 0 20px;
+    color: #ffffff;
+    font-family: poppins;
+  }
+}
+@media screen and (max-width:425px) {
+  .timeline{
+    font-size: 20px;
+    padding: 0 12px 0 12px;
+    color: #ffffff;
+    font-family: poppins;
+  }
+}
